@@ -1,42 +1,24 @@
 # -*- coding: UTF-8 -*-
 import math
 
-var1 = 1;print var1;del var1
-
-# print var1;
-
-print abs(-2)
-print math.fabs( 1 )
-
-print math.ceil( 100.0002 )
-print math.floor( 100.0002 )
+var = 'matisha001@163.com'
 
 
-print cmp(80, 100)
+print var[1]
+print var[:7]
+print var[10:]
+
+print var[10:14]
 
 
-print math.exp( 1 )
-print math.pow( 2, 3 )
-
-print math.log( 2 )
-print math.log10( 2 )
-print math.sqrt( 8 )
-
-print max(1,2,3,4,5)
-print min(-1,2,3,4,5)
+print "更新字符串 :- ", var[:11] + 'sina.com'
 
 
-print math.modf( -100.0002 )
-print round( -100.123002,2 )
+print "My mail is %s and port is %#x!" % (var, 21) 
 
-print math.pi
 
-print math.e
+print u'matisha\u0020test'
 
-print math.sin(math.pi/6)
+print var.capitalize()
 
-print math.acos(0.5)
-
-print math.radians(math.pi/2)
-
-print math.degrees(math.pi/2)
+print var.upper()
